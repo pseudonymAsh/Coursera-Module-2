@@ -1,0 +1,67 @@
+
+
+div {text-align: center;}
+* {
+  
+  margin: 0;
+  padding: 0;
+}
+	Max--
+	.row {width: 100%;}
+	#boxDosa{background-color: grey;
+		box-sizing:border-box;
+		position: relative;
+		margin-right: 3px;
+		border:1px solid black;
+		float: left;
+		}
+	#boxRas{background-color: grey;
+		box-sizing:border-box;
+		position: relative;
+		margin-right: 3px;
+		border:1px solid black;
+		float: left;}
+	#boxBhel{background-color: grey;
+		box-sizing:border-box;
+		position: relative;
+		margin-right: 3px;
+		border:1px solid black;
+		float: left;}
+}#MenuItemFoodDosa {background-color: #701050;
+		box-sizing: border-box;
+					position: absolute;	
+					padding-bottom: : 15px;
+					border:1px solid black;
+					float: right;
+					}
+
+@media (min-width: 992px){
+	#boxDosa{background-color: grey;
+		box-sizing:border-box;
+		position: relative;
+		width: 33%;
+		float: left;
+		}
+}
+	#MenuItemFoodDosa {background-color: #701050;
+		box-sizing: border-box;
+					position: relative;	
+					padding: 10px;
+					border:1px solid black;
+					float: right;
+					}
+	Med----
+@media (min-width:768px) and (max-width:991px) { #boxDosa{
+		width: 50%;
+		margin: 3px;
+		float: left;
+}}
+	Min--
+@media (min-width: 0px) and (max-width: 767px)	{#boxDosa{background-color: grey;
+		box-sizing:border-box;
+		position: relative;
+		max-width: 25%;
+		margin: 3px;
+		border:1px solid black;
+		float: both;}}
+</style>	
